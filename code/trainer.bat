@@ -1,0 +1,3 @@
+cd E:\Users\moydevma\opencv\build\x86\vc12\bin
+
+opencv_traincascade -data "E:\Users\moydevma\Thesis Data\Image Identification\RESULTS" -vec "E:\Users\moydevma\Thesis Data\Image Identification\TRAINING FILES\positives.xml" -bg "E:\Users\moydevma\Thesis Data\Image Identification\TRAINING FILES\bg.txt" -numPos 500 -numNeg 500 -numStages 5 -precalcValBufSize 200 -precalcIdxBufSize 200 -featureType HAAR -w 24 -h 24 -minHitRate 0.9 -maxFalseAlarmRate 0.4 -weightTrimRate 0.95 -maxDepth 1 maxWeakCount 20 -mode BASIC
